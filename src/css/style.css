@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  font-family: "Outfit", Helvetica, system-ui, -apple-system, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+p {
+  font-size: 15px;
+}
+
+.wrapper-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(212deg, 45%, 89%);
+}
+
+.qr-container {
+  width: 300px;
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 10px;
+  text-align: center;
+  gap: 10px;
+}
+.qr-container h1 {
+  font-size: 20px;
+  color: hsl(218deg, 44%, 22%);
+  font-weight: 700;
+  margin-top: 15px;
+}
+.qr-container img {
+  border-radius: 5px;
+}
+
+.qr-description {
+  color: hsl(220deg, 15%, 55%);
+  font-weight: 400;
+}/*# sourceMappingURL=style.css.map */
